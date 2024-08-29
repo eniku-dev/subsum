@@ -10,6 +10,7 @@ export default {
         background: "#eff3fc",
         textColor: "#3f507d",
         border: "#d6e1f3",
+        buttonHover: "#6882b6",
       },
     },
   },

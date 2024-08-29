@@ -15,8 +15,8 @@ function Layout() {
       <SideBar />
       {/* Main content area */}
       <div className="flex flex-col flex-1">
-        <Header />
-        <main className="flex-1 p-4 overflow-y-auto bg-[#f8f9fd]">
+        {/*     <Header userName="Lawal Wahab" /> */}
+        <main className="flex-1 p-4 overflow-y-auto bg-[#fff]">
           <Outlet />
         </main>
       </div>
