@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import { EyeIcon, EyeOffIcon } from "lucide-react";
 import { useNavigate, Navigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext"; // Adjust the import path as needed
+import { SidebarImg } from "../assets";
 
 const Login = () => {
   // State for form inputs and password visibility
@@ -41,8 +42,23 @@ const Login = () => {
   return (
     <div className="flex min-h-screen bg-[#f8f9fd]">
       {/* Left side gradient (hidden on mobile) */}
-      <div className="hidden w-1/3 bg-gradient-to-t from-blue-700 md:block">
-        left
+      <div className="hidden w-1/3 md:block relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(${SidebarImg})`,
+              backgroundPosition: "top center", // Adjust this to change image position
+              backgroundSize: "cover", // You can also adjust this for scaling
+            }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#020181] "></div>
+        </div>
+        <div className="absolute bottom-0">
+          <h1 className="text-white text-3xl w-[80%] pl-24 font-bold mb-8">
+            The BEST place to Subscribe / Buy
+          </h1>
+        </div>
       </div>
 
       {/* Main content area */}

@@ -5,5 +5,6 @@ import Mtn from "./mtn.jpg";
 import Card from "./card.png";
 import Profile from "./profile.png";
 import Mobile2 from "./9mobile2.png";
+import SidebarImg from "./sidebar.png";
 
-export { Logo, Mobile, Airtle, Mtn, Card, Profile, Mobile2 };
+export { Logo, Mobile, Airtle, Mtn, Card, Profile, Mobile2, SidebarImg };

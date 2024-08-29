@@ -130,6 +130,8 @@ const Sidebar = () => {
               <div className="flex items-center">
                 <IconComponent
                   className={`w-5 h-5 ${
+                    menuItems[index].icon === Tv ? "rotate-180" : null
+                  } ${
                     active
                       ? "text-white"
                       : "text-inactive group-hover:text-white"

@@ -232,7 +232,7 @@ const Transaction = () => {
                       </span>
                     </div>
                   </td>
-                  <td className="">
+                  <td className="px-4 py-4">
                     <button className="text-blue-600  bg-background px-2 rounded-lg py-2 hover:text-blue-800">
                       Open
                     </button>

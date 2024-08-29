@@ -40,14 +40,14 @@ const Airtime = () => {
             <div key={step} className="flex flex-col items-center">
               <span
                 className={`text-md font-semibold mb-2 ${
-                  index === 0 ? "text-blue-600" : "text-background"
+                  index === 0 ? "text-blue-600" : "text-[#d6e1f3]"
                 }`}
               >
                 {step}
               </span>
               <div
                 className={`h-[5.5px] w-[155px] rounded-full ${
-                  index === 0 ? "bg-blue-600" : "bg-background"
+                  index === 0 ? "bg-blue-600" : "bg-[#d6e1f3]"
                 }`}
               ></div>
             </div>
