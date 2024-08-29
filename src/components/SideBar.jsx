@@ -159,10 +159,10 @@ const Sidebar = () => {
 
       <nav className="flex-grow">{renderMenuItems()}</nav>
 
-      <div className="p-4 mb-8">
+      <div className=" mb-8">
         <button
           onClick={handleLogout}
-          className="group w-[90%] ml-[5%] text-left px-4 py-3 flex items-center rounded-lg transition-colors text-inactive hover:text-white hover:bg-buttonHover focus:outline-none"
+          className="group w-[90%] ml-[5%] text-left px-4 py-3 flex items-center rounded-lg  text-inactive hover:text-white hover:bg-buttonHover focus:outline-none"
         >
           <LogOut className="w-5 h-5" />
           <span className="ml-3 font-semibold">Log Out</span>

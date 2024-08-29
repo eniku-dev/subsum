@@ -18,7 +18,7 @@ const supportOptions = [
     action: "Chat Now",
     icon: MessageCircle,
     color: "bg-yellow-400",
-    link: "/chat",
+    link: "",
   },
   {
     id: "whatsapp",
@@ -64,8 +64,7 @@ const SupportOption = ({
   disabled,
 }) => (
   <a
-    href={link}
-    className={`flex items-center p-2 border-[1.5px] border-border  rounded-2xl `}
+    className={`cursor-pointer flex items-center p-2 border-[1.5px] border-border  rounded-2xl `}
     onClick={(e) => disabled && e.preventDefault()}
   >
     <div className={`p-4 rounded-2xl ${color}`}>
